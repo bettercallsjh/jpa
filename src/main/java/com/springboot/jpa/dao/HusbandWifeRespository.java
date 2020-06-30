@@ -10,4 +10,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface HusbandWifeRespository extends JpaRepository<Wife,Integer> {
     Wife findByHusband_Hid(Integer hid);
+    //增加一条注释
 }
